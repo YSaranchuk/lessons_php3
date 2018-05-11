@@ -5,7 +5,7 @@ $animals_continents = [
     "North America" => ['Bradypus', 'Dasypus Novemcinctus'],
     "Eurasia" => ['Lutra', 'Mydaus Javanensis'],
     "South America" => ['Jaguar', 'Chelonoidis Elephantopu'],
-    "Australia" => ['Vombatidae', Myrmecobius Fasciatus']
+    "Australia" => ['Vombatidae', 'Myrmecobius Fasciatus']
 ];
 $double_name = [];
 $continent = [];
