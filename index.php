@@ -1,11 +1,11 @@
 <?php
 error_reporting(E_ALL);
 $animals_continents = [
-    "Africa" => ['Elephant', 'Mammuthus Columbi'],
-    "North America" => ['Bradypus', 'Dasypus Novemcinctus'],
-    "Eurasia" => ['Lutra', 'Mydaus Javanensis'],
-    "South America" => ['Jaguar', 'Chelonoidis Elephantopu'],
-    "Australia" => ['Vombatidae', 'Myrmecobius Fasciatus']
+    "Africa" => ['Elephant', 'Mammuthus Columbi', 'Lemuriformes'],
+    "North America" => ['Bradypus', 'Dasypus Novemcinctus', 'Ursus'],
+    "Eurasia" => ['Lutra', 'Mydaus Javanensis', 'Lynx'],
+    "South America" => ['Jaguar', 'Chelonoidis Elephantopu', 'Tapirus'],
+    "Australia" => ['Vombatidae', 'Myrmecobius Fasciatus', 'Varanus']
 ];
 $double_name = [];
 $continent = [];
@@ -15,7 +15,7 @@ echo '<h1>Массив животных через запятую</h1>';
 foreach ($animals_continents as $continents_key => $animals) {
     $continent[] = $continents_key;
     echo "<h2>$continents_key</h2>";
-    echo $animals[0] . ', ' . $animals[1];
+    echo $animals[0] . ', ' . $animals[1] . ', ' . $animals[2];
     foreach ($animals as $two) {
         $rows_two = explode(" ", $two);
         if (count($rows_two) == 2) {
