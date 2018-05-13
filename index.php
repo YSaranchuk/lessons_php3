@@ -22,6 +22,7 @@ foreach ($animals_continents as $continents_key => $animals) {
             $double_name[] = $two;
             $first_world[] = $rows_two[0];
             $second_word[] = $rows_two[1];
+            $third_word[] = $rows_two[2];
         }
     }
 }
